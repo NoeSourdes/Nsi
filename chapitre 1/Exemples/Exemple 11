@@ -1,0 +1,6 @@
+print("exemple 11")
+
+nom=input('Nom de ton lycée ? ') # on demande à l'utilisateur de saisir une donnée au clavier
+print('Le nom de ton lycée est :',nom) # on affiche la donnée saisie
+print(type(nom))
+print(id(nom))

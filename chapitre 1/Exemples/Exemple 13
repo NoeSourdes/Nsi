@@ -1,0 +1,25 @@
+print("Exemple 13")
+
+taille=input('Quel est ta taille en m ? ')
+print('ta taille est de',taille,"m")
+print('la variable taille est de type :',type(taille))
+print('la variable taille est sauvegardée à :',id(taille))
+
+
+taille=float(taille)
+print('ta taille est de',taille,"m")
+print('la variable taille est de type :',type(taille))
+print('la variable taille est sauvegardée à :',id(taille))
+#taille est d'abord une variable str puis devient une variable float
+
+taille=float(input('Quel est ta taille en m ? '))
+print('ta taille est de',taille,"m")
+print('la variable taille est de type :',type(taille))
+print('la variable taille est sauvegardée à :',id(taille))
+#taille est une variable float dès le début
+m=5.6
+p=7
+q=m*10**(-p) #les puissances sont prioritaires aux multiplications
+print("la variable m vaut",m,"et est de type :",type(m))
+print("la variable p vaut",p,"et est de type :",type(p))
+print("la variable q vaut",q,"et est de type :",type(q))

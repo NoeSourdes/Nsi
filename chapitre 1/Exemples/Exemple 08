@@ -1,0 +1,13 @@
+print("exemple 8")
+
+k=1.5e-2
+print('k = ',k)
+j=1.5*10**-2
+print('j = ',j)
+# les deux sont le même calcul mais avec différentes notations
+m=5.6
+p=7
+q=m*10**-p # Le calcul d’une puissance est prioritaire sur les autres opérations 1+(3**2)
+print('m = ',m," type : ",type(m))
+print('p = ',p," type : ",type(p))
+print('q = ',q," type : ",type(q))

@@ -1,0 +1,12 @@
+print("exemple 3")
+
+a=1 # la variable a reçoit la valeur 1 : a <-- 1
+b=1 # la variable b reçoit la valeur 1 : b <-- 1
+print(a-b) # on soustrait à la variable a la variable b
+
+a,b=3,4 # Les variables a et b reçoivent les valeurs 3 et 4
+print(a-b) # on soustrait à la variable a la variable b
+
+
+a,b=b,a # Les variables a et b reçoivent les valeurs 4 et 3
+print(a-b) # on soustrait à la variable a la variable b

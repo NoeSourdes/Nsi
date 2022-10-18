@@ -1,0 +1,23 @@
+print("Exemple 12")
+age=input('Quel est ton âge ? ')
+print('vous avez :',age,"ans")
+print('la variable age est de type :',type(age))
+print('la variable age est sauvegardée à :',id(age))
+
+age=int(age)
+print('vous avez :',age,"ans")
+print('la variable age est de type :',type(age))
+print('la variable age est sauvegardée à :',id(age))
+#age est d'abord une variable str puis devient une variable int
+
+age=int(input('Quel est ton âge ? '))
+print('vous avez :',age,"ans")
+print('la variable age est de type :',type(age))
+print('la variable age est sauvegardée à :',id(age))
+#age est une variable int dès le début
+m=5.6
+p=7
+q=m*10**(-p) #les puissances sont prioritaires aux multiplications
+print("la variable m vaut",m,"et est de type :",type(m))
+print("la variable p vaut",p,"et est de type :",type(p))
+print("la variable q vaut",q,"et est de type :",type(q))

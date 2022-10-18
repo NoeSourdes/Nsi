@@ -1,0 +1,18 @@
+print("exemple 7")
+
+a=2 # la variable a reçoit la valeur 2 : a <-- 2
+b=3 # la variable b reçoit la valeur 3 : b <-- 3
+print('a = ',a,' b = ',b)
+a=b  # la variable a reçoit la valeur 3 : a <-- 3
+print('a = ',a,' b = ',b)
+
+print() # saute une ligne dans la console
+
+a=2 # la variable a reçoit la valeur 2 : a <-- 2
+b=3 # la variable b reçoit la valeur 3 : b <-- 3
+print('a = ',a,' b = ',b)
+a==b # le test d'égalité ne change rien aux valeurs
+print('a = ',a,' b = ',b)
+
+print() # saute une ligne dans la console
+print(a==b) # on vérifie si a et b sont égaux

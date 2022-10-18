@@ -1,0 +1,12 @@
+print("exemple 2")
+
+a=2 # la variable a reçoit la valeur 2 : a <-- 2
+b=3 # la variable b reçoit la valeur 3 : b <-- 3
+a=7 # la variable a reçoit la valeur 7 : a <-- 7
+A=5 # Les variables A et a reçoivent les valeurs 5 et 7
+B=33 # La variable B reçoit la valeur  : B <-- 33
+
+print("la variable a contient la valeur : ",a)
+print("la variable b contient la valeur : ",b)
+print("la variable A contient la valeur : ",A)
+print("la variable B contient la valeur : ",B)

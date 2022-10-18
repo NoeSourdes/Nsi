@@ -1,0 +1,17 @@
+print("exemple 6")
+
+a=2
+b=3
+f=a/b
+g=a**b
+
+print("la valeur de la variable g est ",g)
+print("le type   de la variable a es t",type(a))
+print("le type   de la variable b est ",type(b))
+print("le type   de la variable f est ",type(f))
+print("le type   de la variable g est ",type(g))
+
+print("l'adresse de la variable a est ",id(a))
+print("l'adresse de la variable b est ",id(b))
+print("l'adresse de la variable f est ",id(f))
+print("l'adresse de la variable g est ",id(g))

@@ -1,0 +1,10 @@
+print("exemple 5")
+
+j=2*3+2     # La multiplication est prioritaire (2*3)+2
+k=2*(3+2)   # Les parenthèses s’emploient comme sur une calculatrice.
+l=1+3**2    # L'élévation à la puissance s'écrit ** en python 
+            # Le calcul d’une puissance est prioritaire sur les autres opérations 1+(3**2)
+
+print("la variable j contient la valeur : ",j)
+print("la variable k contient la valeur : ",k)
+print("la variable l contient la valeur : ",l)

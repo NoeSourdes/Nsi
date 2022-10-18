@@ -1,0 +1,19 @@
+print("exemple 4")
+
+a,b=1,2 # Les variables a et b reçoivent les valeurs 1 et 2
+
+c=a+b # on ajoute a et b
+d=b-a # on soustrait à b, a
+e=a*b # on multiplie a et b
+f=a/b # on divise a par b
+g=a//b # on cherche le quotient de la division de a par b
+h=a%b # on cherche le reste de la division de a par b
+i=a**b # on élève a à la puissance b
+
+print("la variable c contient la valeur : ",c)
+print("la variable d contient la valeur : ",d)
+print("la variable e contient la valeur : ",e)
+print("la variable f contient la valeur : ",f)
+print("la variable g contient la valeur : ",g)
+print("la variable h contient la valeur : ",h)
+print("la variable i contient la valeur : ",i)

@@ -1,0 +1,6 @@
+print("exemple 1")
+
+a=1 # la variable a reçoit la valeur 1 : a <-- 1
+b=2 # la variable b reçoit la valeur 2 : b <-- 2
+
+print('le calcul de a+b donne :',a+b)
